@@ -1,0 +1,81 @@
+       .align {
+           display: flex;
+           justify-content: center;
+           gap: 85px;
+           align-items: center;
+           height: 12vh;
+       }
+
+       .table_align {
+           display: flex;
+           justify-content: center;
+           flex-direction: column;
+           gap: 60px;
+           align-items: center;
+           height: 100vh;
+       }
+
+       button {
+           width: 100px;
+           height: 40px;
+           text-align: center;
+           font-size: large;
+           margin-right: 30px;
+           margin-left: 30px;
+       }
+
+       th,
+       td {
+           border-left: 2px solid black;
+           border-top: 2px solid black;
+           text-align: center;
+           font-size: large;
+           width: 40px;
+           height: 40px;
+           padding: 0;
+       }
+
+       table {
+           margin-top: 50px;
+           table-layout: fixed;
+           border-collapse: collapse;
+           border: 2px solid black;
+           box-sizing: border-box;
+       }
+
+       /* .start_screen{
+
+        } */
+       p {
+           text-align: center;
+           font-size: xx-large;
+       }
+
+       input {
+
+           text-align: center;
+       }
+
+       div[contenteditable] {
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           margin: 0;
+           padding: 0;
+           border: none;
+           outline: none;
+           font-size: x-large;
+           border: 3px solid black;
+           width: 100px;
+           height: 40px;
+           text-align: center;
+       }
+
+       #main {
+           display: none;
+       }
+
+       .animation_class {
+           background-color: red;
+           transition: background-color 0.5s ease-out;
+       }

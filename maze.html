@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="maze.css">
+
+</head>
+
+<body>
+  <div id="start_screen">
+    <p>Welcome</p>
+    <br><br><br><br><br><br><br><br>
+    <div class="align">
+      <p>Length</p>
+      <div contenteditable="true" id="length"></div>
+      <p>Height</p>
+      <div contenteditable="true" id="width"></div>
+    </div>
+    <div class="align">
+      <button id="bfs">BFS</button>
+      <button id="dfs">DFS</button>
+    </div>
+    <div class="align">
+      <p> </p><button id="start">START</button> <br>
+    </div>
+    <br><br>
+    <p id="msg"></p>
+  </div>
+  <div id="main" class="table_align">
+    <table id="tab">
+    </table>
+
+    <div>
+      <button id="wall">Set Wall</button>
+      <button id="stop_wall">Stop Wall</button>
+    </div>
+    <div>
+      <button id="start_pt">Set Start</button>
+      <button id="end_pt">Set End</button>
+      <button id="start_game">Start</button>
+    </div>
+
+  </div>
+
+  <script src="maze.js"></script>
+</body>
+
+</html>
